@@ -1,7 +1,5 @@
 package com.company;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class Main {
 
@@ -10,7 +8,7 @@ public class Main {
         int[] mas = {1, 5, 5, 5, 6, 6, 7, 7, 7, 7, 7, 7, 7, 7, 5, 5, 5, 5, 5};
         int[] mas1 = new int[mas.length];
 
-        int b = 0;// quantity of repeat
+        int b = 0;// quantity of repeats
         int c = 0; //max repeat
 
         for (int i = 0; i < mas.length; i++) {
