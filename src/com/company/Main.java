@@ -5,7 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] mas = {9, 5, 5, 5, 6, 6, 7, 7, 7, 7, 7, 7, 7, 7, 5, 5, 5, 5, 5};
+        int[] mas = {1, 5, 5, 5, 6, 6, 7, 7, 7, 7, 7, 7, 7, 7, 5, 5, 5, 5, 5};
         int[] mas1 = new int[mas.length];
 
         int b = 0;// quantity of repeats
