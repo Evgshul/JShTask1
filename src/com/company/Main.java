@@ -31,7 +31,6 @@ public class Main {
                 max_repeat = b;
                 a = mas[mas.length - 1];
             }
-
         }
         System.out.println();
         System.out.println("max repeat " + max_repeat);
