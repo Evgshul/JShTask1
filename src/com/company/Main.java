@@ -6,8 +6,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] mas = {1, 5, 5, 5, 6, 6, 7, 7, 7, 7, 7, 7, 7, 7, 5, 5, 5, 5, 5};
-        int[] mas1 = new int[mas.length];
+        int[] mas = {1, 5, 5, 5, 6, 6, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7};
+
 
         int a = mas[0];// number
         int b = 1; //repeats
@@ -17,15 +17,21 @@ public class Main {
 
             System.out.print(mas[i]);
 
-            if (mas[i] == mas[i + 1]) {
+            if (mas[i] == mas[i +1]) {
                 b++;
             } else {
                 if (b > max_repeat) {
                     max_repeat = b;
-                    a = mas[i];
+                    a = mas[i - 1];
                 }
                 b = 1;
             }
+
+            if (b > max_repeat) {
+                max_repeat = b;
+                a = mas[mas.length - 1];
+            }
+
         }
         System.out.println();
         System.out.println("max repeat " + max_repeat);
