@@ -13,11 +13,11 @@ public class Main {
         int b = 1; //repeats
         int max_repeat = 1;
 
-        for (int i = 1; i < mas.length-1; i++) {
+        for (int i = 1; i < mas.length - 1; i++) {
 
             System.out.print(mas[i]);
 
-            if (mas[i] == mas[i +1]) {
+            if (mas[i] == mas[i + 1]) {
                 b++;
             } else {
                 if (b > max_repeat) {
@@ -26,7 +26,6 @@ public class Main {
                 }
                 b = 1;
             }
-
             if (b > max_repeat) {
                 max_repeat = b;
                 a = mas[mas.length - 1];
@@ -34,7 +33,7 @@ public class Main {
         }
         System.out.println();
         System.out.println("max repeat " + max_repeat);
-        System.out.println("integer from the longest recurring sequence within that array "+ a);
+        System.out.println("integer from the longest recurring sequence within that array " + a);
 
     }
 }
