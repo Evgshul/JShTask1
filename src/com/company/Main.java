@@ -37,12 +37,5 @@ public class Main {
         System.out.println("max repeat " + max_repeat);
         System.out.println("integer from the longest recurring sequence within that array "+ a);
 
-
-        // a = 1;b = 1;
-        // a= 5; b = 1;
-        //a= 5; b = 2;
-        //a = 5; b = 3;
-        // a = 6; b =1;
-
     }
 }
