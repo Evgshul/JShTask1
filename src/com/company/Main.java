@@ -31,7 +31,6 @@ public class Main {
                 a = mas[mas.length - 1];
             }
         }
-        
         System.out.println();
         System.out.println("max repeat " + max_repeat);
         System.out.println("integer from the longest recurring sequence within that array " + a);
