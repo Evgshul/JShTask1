@@ -32,6 +32,7 @@ public class Main {
             }
         }
 
+        
 
         System.out.println();
         System.out.println("max repeat " + max_repeat);
