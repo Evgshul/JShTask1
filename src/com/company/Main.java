@@ -36,3 +36,5 @@ public class Main {
         System.out.println("integer from the longest recurring sequence within that array " + a);
     }
 }
+
+
